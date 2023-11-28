@@ -68,6 +68,7 @@ nav {
 
 .hero--text {
   margin-top: 16px;
+  margin-bottom: 0px;
   width: 320px;
   height: 56px;
   flex-shrink: 0;
@@ -78,10 +79,18 @@ nav {
   line-height: 110%; /* 17.6px */
 }
 
+.cardsContainer{
+  position: relative;
+  display: flex;
+  margin-left: 19px;
+  margin-top: 49px;
+  justify-content: space-between;
+}
+
 .card{
   width: 176px;
-  margin-top: 49px;
-  margin-left: 37px;
+  /* margin-top: 49px; */
+  margin-left: 18px;
 }
 
 .card-photo-container {
@@ -161,7 +170,7 @@ span {
 .description {
   margin-top: 8px;
   margin-bottom: 8px;
-  width: 100%;
+  width: 178px;
   height: 14px;
   flex-shrink: 0;
   color: #222;
@@ -169,6 +178,7 @@ span {
   font-style: normal;
   font-weight: 300;
   line-height: 110%; /* 13.2px */
+  /* border: 1px solid red; */
 }
 
 .price{
