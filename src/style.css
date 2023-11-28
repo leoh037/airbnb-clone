@@ -12,7 +12,7 @@ body {
   margin: auto;
   position: relative;
   width: 550px;
-  height: 853px;
+  height: 860px;
   border-radius: 8.95px;
   background: #FFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -80,17 +80,17 @@ nav {
 }
 
 .cardsContainer{
-  position: relative;
   display: flex;
   margin-left: 19px;
   margin-top: 49px;
-  justify-content: space-between;
+  /* flex-wrap: nowrap; */
+  overflow-x: auto;
 }
 
 .card{
   width: 176px;
-  /* margin-top: 49px; */
   margin-left: 18px;
+  margin-bottom: 10px;
 }
 
 .card-photo-container {
