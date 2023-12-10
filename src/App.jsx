@@ -6,16 +6,11 @@ import cardData from "./data"
 
 function App() {
   
-  const cardElements = cardData.map(card => {
+  const cardElements = cardData.map(item => {
     return <Card
-      key={card.id} 
-      img={card.coverImg}
-      rating={card.stats.rating}
-      reviewCount={card.stats.reviewCount}
-      location={card.location}
-      title={card.title}
-      price={card.price}
-      openSpots={card.openSpots}
+      key={item.id} 
+      item={item}
+      //{...item} use this if you want React to automatically map the props to a json key/value pair for you
     />
   })
 
