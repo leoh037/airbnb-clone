@@ -6,7 +6,7 @@ function Card(props) {
             <div className="card-photo-container">
                 <img src={props.img} className="card-photo" />
                 <div className="status-container">
-                    <p className="status">{props.status}</p>
+                    <p className="status">{ (props.status > 0) ? "ONLINE" : "SOLD OUT" }</p>
                 </div>
             </div>
             <div className="stats-container">

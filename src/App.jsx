@@ -7,14 +7,15 @@ import cardData from "./data"
 function App() {
   
   const cardElements = cardData.map(card => {
-    return <Card 
+    return <Card
+      key={card.id} 
       img={card.coverImg}
       rating={card.stats.rating}
       reviewCount={card.stats.reviewCount}
       country={card.location}
       title={card.title}
       price={card.price}
-      status={card.status}
+      status={card.openSpots}
     />
   })
 

@@ -10,8 +10,7 @@ export default [
             reviewCount: 6
         },
         location: "Online",
-        openSpots: 0,
-        status: "SOLD OUT"
+        openSpots: 0
     },
     {
         id: 2,
@@ -24,8 +23,7 @@ export default [
             reviewCount: 30
         },
         location: "Online",
-        openSpots: 27,
-        status: "ONLINE"
+        openSpots: 27
     },
     {
         id: 3,
@@ -38,7 +36,6 @@ export default [
             reviewCount: 2
         },
         location: "Norway",
-        openSpots: 3,
-        status: "ONLINE"
+        openSpots: 3
     }
 ]
